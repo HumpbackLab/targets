@@ -4048,5 +4048,20 @@
                 "prior_target_name": "DIY_2400_RX_ESP8285_SX1280"
             }
         }
+    },
+    "humpbacklab": {
+        "name": "HumpbackLab",
+        "tx_2400": {
+            "pockettx_v10": {
+                "product_name": "PocketTX 2.4G V1.0",
+                "lua_name": "PocketTX",
+                "layout_file": "PocketTX 2400.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.5.0",
+                "platform": "esp8285",
+                "firmware": "Unified_ESP8285_2400_TX",
+                "prior_target_name": "HumpbackLab_PocketTX_2400_TX"
+            }
+        }
     }
 }
